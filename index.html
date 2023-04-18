@@ -3,25 +3,43 @@
 <head>
 	<title>Pedidus app</title>
 	<style>
-		body {
+		.container {
 			background-color: #feddbc;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+		.image-container {
+			max-width: 66%;
+			height: auto;
+			margin-bottom: 24px;
 		}
 		img {
 			display: block;
 			margin: 0 auto;
-			max-width: 66%;
+			width: 100%;
 			height: auto;
 		}
 		p {
 			color: #e44a1f;
 			text-align: center;
 			font-size: 24px;
-			margin-top: 20px;
+			margin: 0;
 		}
 	</style>
 </head>
 <body>
-	<img src="color_with_background.jpg" alt="Em breve...">
-	<p>Aguarde...</p>
+	<div class="container">
+		<div class="image-container">
+			<img src="color_with_background.jpg" alt="Em breve...">
+		</div>
+		<p>Aguarde...</p>
+	</div>
 </body>
 </html>
+
+
+
+
