@@ -6,9 +6,13 @@
 		body {
 			background-color: #feddbc;
 		}
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
 		img {
-			display: block;
-			margin: 0 auto;
 			max-width: 66%;
 			height: auto;
 		}
@@ -21,7 +25,9 @@
 	</style>
 </head>
 <body>
-	<img src="logo.jpg" alt="Em breve...">
+	<div class="container">
+		<img src="logo.jpg" alt="Em breve...">
+	</div>
 	<p>Aguarde...</p>
 </body>
 </html>
